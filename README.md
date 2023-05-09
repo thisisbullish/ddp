@@ -1,13 +1,21 @@
-# DDP: Decentralisation Design Principles | v0.0.1
+# DDP: Decentralisation Design Principles | v0.0.2
+
+The Decentralisation Design Principles (DDP) provide a guide to help you design interfaces that serve the end-user of a blockchain-related application better.
+
+Each principle is categorised under the following:
+[UI]: Refers to the design and presentation of the user interface in blockchain-related applications.
+[Permanence]: Relates to the irreversible nature of blockchain transactions and emphasises the importance of preventing mistakes that could have long-lasting effects.
+[Value]: Relates to actions involving the transfer of valuable assets such as money.
+[Privacy]: Focuses on protecting the personal information and interactions of users from unauthorised access, while still ensuring transparency and accessibility where needed.
 
 - ### Transparency of Data Provenance [Reading Data]
 
-  1. [UX/UI] Clarify which data comes from the blockchain and which doesn’t.
-  2. [UX/UI] Clarify blockchain addresses, which data comes from oracles and link all blockchain data to independent blockchain explorers.
-  3. [UX/UI] Manage transaction wait time. Clarify blockchain specific times and manage user’s wait in various phases and feedback.
-  4. [UX/UI] Within the context of an individual, adapt to progressively increase/decrease the amount of new lingo and specific concepts that they need to learn and are exposed to. never combine expert-level blockchain-specific lingo with the need-to-know basics when acting within the same context of an individual; create tiers of knowledge levels. You can show an expert the basics, but never the other way around.
-  5. [UX/UI] Use a consistent visual language to dictate addresses. use human-readable deterministic visual representation of the hash (i.e. _Identicons, Blockies_ et al.) when possible. allow users to expand the full address/hash and copy.
-  6. [UX/UI] Apply relevance to interrupting messages only for information relevant to the current user.
+  1. [UI] Clarify which data comes from the blockchain and which doesn’t.
+  2. [UI] Clarify blockchain addresses, which data comes from oracles and link all blockchain data to independent blockchain explorers.
+  3. [UI] Manage transaction wait time. Clarify blockchain specific times and manage user’s wait in various phases and feedback.
+  4. [UI] Within the context of an individual, adapt to progressively increase/decrease the amount of new lingo and specific concepts that they need to learn and are exposed to. never combine expert-level blockchain-specific lingo with the need-to-know basics when acting within the same context of an individual; create tiers of knowledge levels. You can show an expert the basics, but never the other way around.
+  5. [UI] Use a consistent visual language to dictate addresses. use human-readable deterministic visual representation of the hash (i.e. _Identicons, Blockies_ et al.) when possible. allow users to expand the full address/hash and copy.
+  6. [UI] Apply relevance to interrupting messages only for information relevant to the current user.
 
 - ### Transparency of Transactions [Writing Data]
 
@@ -18,8 +26,8 @@
   5. [Privacy] Transparency of user’s interactions e.g. clarify where is the history stored (local or server).
   6. [Privacy] Provide tools to _navigate, search, export, and delete_ the history cache where possible.
   7. [Privacy] Clarify actions that generate new contracts in the users name.
-  8. [UX/UI] Types of transactions i.e. value transfers, function calls, contract generating.
-  9. [UX/UI] When a blockchain event aborts or otherwise fails to complete as expected, the fallback must remain functional with resulting blockchain state clear.
-  10. [UX/UI] Allow users to subscribe-to, unsubscribe-from or temporarily mute certain events.
+  8. [UI] Types of transactions i.e. value transfers, function calls, contract generating.
+  9. [UI] When a blockchain event aborts or otherwise fails to complete as expected, the fallback must remain functional with resulting blockchain state clear.
+  10. [UI] Allow users to subscribe-to, unsubscribe-from or temporarily mute certain events.
 
-Copyright (c) 2021 thisisbullish
+Copyright (c) 2023 thisisbullish
