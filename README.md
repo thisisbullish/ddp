@@ -3,9 +3,13 @@
 The Decentralisation Design Principles (DDP) provide a guide to help you design interfaces that serve the end-user of a blockchain-related application better.
 
 Each principle is categorised under the following:
+
 [UI]: Refers to the design and presentation of the user interface in blockchain-related applications.
+
 [Permanence]: Relates to the irreversible nature of blockchain transactions and emphasises the importance of preventing mistakes that could have long-lasting effects.
+
 [Value]: Relates to actions involving the transfer of valuable assets such as money.
+
 [Privacy]: Focuses on protecting the personal information and interactions of users from unauthorised access, while still ensuring transparency and accessibility where needed.
 
 - ### Transparency of Data Provenance [Reading Data]
