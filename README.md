@@ -1,8 +1,9 @@
 # DDP: Decentralisation Design Principles | v0.0.2
 
-The Decentralisation Design Principles (DDP) provide a guide to help you design interfaces that serve the end-user of a blockchain-related application better. Each principle can be importantlyu categorised under `[Reading Data]`: accessing and retrieving information from a storage or memory without modifying it, or `[Writing Data]`: modifying or adding information to storage or memory. Each principle can also be sb-categoried under the following sub-catgories:
+The Decentralisation Design Principles (DDP) provide a guide to help you design blockchain-based applications and their interfaces to better serve their end-users. Each principle is importantly categorised under `[Reading Data]` (accessing and retrieving data from a storage without modifying it), or `[Writing Data]` (modifying data to storage).
 
-`[UI]`: Refers to the design and presentation of the user interface in blockchain-related applications.
+Subcategories:
+`[UI]`: to the user interface presentation layer of the application.
 
 `[Permanence]`: Relates to the irreversible nature of blockchain transactions and emphasises the importance of preventing mistakes that could have long-lasting effects.
 
@@ -27,7 +28,7 @@ The Decentralisation Design Principles (DDP) provide a guide to help you design 
   4. `[Privacy]` Accessibility of user’s interaction history e.g. provided a history of all transactions from a given address.
   5. `[Privacy]` Transparency of user’s interactions e.g. clarify where is the history stored (local or server).
   6. `[Privacy]` Provide tools to _navigate, search, export, and delete_ the history cache where possible.
-  7. `[Privacy]` Clarify actions that generate new contracts in the users name.
+  7. `[Privacy]` Clarify actions that generate new contracts in the user's name.
   8. `[UI]` Types of transactions i.e. value transfers, function calls, contract generating.
   9. `[UI]` When a blockchain event aborts or otherwise fails to complete as expected, the fallback must remain functional with resulting blockchain state clear.
   10. `[UI]` Allow users to subscribe-to, unsubscribe-from or temporarily mute certain events.
