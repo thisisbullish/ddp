@@ -1,8 +1,7 @@
 # DDP: Decentralisation Design Principles | v0.0.2
 
-The Decentralisation Design Principles (DDP) provide a guide to help you design blockchain-based applications and their interfaces to better serve their end-users. Each principle is importantly categorised under `[Reading Data]` (accessing and retrieving data from a storage without modifying it), or `[Writing Data]` (modifying data to storage).
+The Decentralisation Design Principles (DDP) provide a guide to help you design blockchain-based applications and their interfaces to better serve their end-users. Principles fall under two main categories `[Reading Data]` (accessing and retrieving data from storage without modifying it), and `[Writing Data]` (modifying data to storage). In addition, each prinicple is focused on addressing one of the following subcategories:
 
-Subcategories:
 `[UI]`: to the user interface presentation layer of the application.
 
 `[Permanence]`: Relates to the irreversible nature of blockchain transactions and emphasises the importance of preventing mistakes that could have long-lasting effects.
