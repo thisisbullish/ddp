@@ -10,6 +10,8 @@ The Decentralisation Design Principles (DDP) provide a guide to help you design 
 
 `[Privacy]`: Protecting the personal information and interactions of users from unauthorised access, while still ensuring transparency and accessibility where needed.
 
+## The Principles
+
 - ### Transparency of Data Provenance `[Reading Data]`
 
   1. `[UI]` Clarify which data comes from the blockchain and which doesn’t.
