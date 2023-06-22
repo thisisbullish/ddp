@@ -34,4 +34,4 @@ The Decentralisation Design Principles (DDP) provide a guide to help you design 
   9. `[UI]` When a blockchain event aborts or otherwise fails to complete as expected, the fallback must remain functional with resulting blockchain state clear.
   10. `[UI]` Allow users to subscribe-to, unsubscribe-from or temporarily mute certain events.
 
-Copyright (c) 2023 This is Bullish Ltd.
+© 2023 This is Bullish Ltd.
